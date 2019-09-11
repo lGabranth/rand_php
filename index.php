@@ -22,7 +22,7 @@
     </style>
   </head>
   <body>
-    <section class="container jumbotron text-center">
+    <section class="container jumbotron text-center"> 
         <div class="row">
             <div class="col">
                 <h1>Rand PHP</h1>
