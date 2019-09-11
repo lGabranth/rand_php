@@ -60,7 +60,9 @@
 						}
 						for ($i = 1; $i < 101; $i++) { 
 						?>
-							<p class="<?php echo ($tabNombre[$i] > 1) ? "alert alert-danger" : "" ?>"><?php echo "La valeur ".($i)." est présente ".$tabNombre[$i]." fois."; ?></p>
+							<p class="<?php echo ($tabNombre[$i] > 1) ? "alert alert-danger" : "" ?>">
+								<?php echo "La valeur ".($i)." est présente ".$tabNombre[$i]." fois."; ?>
+							</p>
 						<?php }
 					?>
 				</div>
