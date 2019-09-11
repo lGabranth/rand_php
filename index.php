@@ -40,7 +40,10 @@
 								$valeurRandom = -1;
 								$tab = array();
 
-								for ($i = 0 ; $i < 30 ; $i++) { 
+								for ($i = 1; $i < 101; $i++) { 
+									$tabNombre[$i] = 0;
+								}
+								for ($i = 1 ; $i < 31 ; $i++) { 
 									$valeurRandom = rand(0,100);
 									$tab[$i] = $valeurRandom;
 							?> 
@@ -51,13 +54,10 @@
 				</div>
 				<div class="col">
 					<?php 
-						for ($i = 0; $i < 100; $i++) { 
-							$tabNombre[$i] = 0;
-						}
-						for ($j = 0; $j < 30; $j++) { 
+						for ($j = 1; $j < 31; $j++) { 
 							$tabNombre[$tab[$j]]++;
 						}
-						for ($i = 0; $i < 100; $i++) { 
+						for ($i = 1; $i < 101; $i++) { 
 						?>
 							<p><?php echo "La valeur ".($i)." est présente ".$tabNombre[$i]." fois."; ?></p>
 						<?php }
