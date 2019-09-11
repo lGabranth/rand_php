@@ -32,9 +32,10 @@
 		<!-- Créer un tableau, dans les 30 cases du tableau placer un noùbre aléatoire entre 0 et 100.
 					Afficher le nombre de fois ou chaque valeur est présente dans le tableau. -->
 		<section class="container bloc">
+			<br>
 			<div class="row">
 				<div class="col">
-					<table>
+					<table border="double">
 						<tr>
 							<?php 
 								$valeurRandom = -1;
