@@ -46,7 +46,7 @@
 								}
 								for ($i = 1 ; $i < 31 ; $i++) { 
 									$valeurRandom = rand(0,100);
-									$tab[$i] = $valeurRandom;
+									$tab[$i] = $valeurRandom; 
 							?> 
 								<td><?php echo $tab[$i]; ?></td>
 							<?php } ?>
