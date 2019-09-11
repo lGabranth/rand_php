@@ -29,7 +29,7 @@
     		</div>
     	</div>
     </section>
-		<!-- Créer un tableau, dans les 30 cases du tableau placer un noùbre aléatoire entre 0 et 100.
+		<!-- Créer un tableau, dans les 30 cases du tableau placer un nombre aléatoire entre 0 et 100.
 					Afficher le nombre de fois ou chaque valeur est présente dans le tableau. -->
 		<section class="container bloc">
 			<br>
